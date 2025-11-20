@@ -1,6 +1,6 @@
 module github.com/coze-dev/coze-loop/backend
 
-go 1.23.4
+go 1.24.0
 
 toolchain go1.24.1
 
@@ -39,12 +39,12 @@ require (
 	github.com/dimchansky/utfbom v1.1.1
 	github.com/dolthub/go-mysql-server v0.18.0
 	github.com/dolthub/vitess v0.0.0-20240228192915-d55088cef56a
-	github.com/expr-lang/expr v1.15.8
+	github.com/expr-lang/expr v1.17.0
 	github.com/fatih/structs v1.1.0
-	github.com/getkin/kin-openapi v0.118.0
+	github.com/getkin/kin-openapi v0.131.0
 	github.com/go-playground/validator/v10 v10.20.0
 	github.com/go-redis/redis_rate/v10 v10.0.1
-	github.com/go-viper/mapstructure/v2 v2.2.1
+	github.com/go-viper/mapstructure/v2 v2.4.0
 	github.com/google/generative-ai-go v0.20.1
 	github.com/google/go-cmp v0.7.0
 	github.com/google/uuid v1.6.0
@@ -58,7 +58,7 @@ require (
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/modern-go/reflect2 v1.0.2
 	github.com/nicksnyder/go-i18n/v2 v2.6.0
-	github.com/ollama/ollama v0.5.12
+	github.com/ollama/ollama v0.10.0
 	github.com/panjf2000/ants/v2 v2.11.3
 	github.com/parquet-go/parquet-go v0.25.0
 	github.com/pkg/errors v0.9.2-0.20201214064552-5dd12d0cfe7f
@@ -74,9 +74,9 @@ require (
 	github.com/valyala/fasttemplate v1.2.2
 	github.com/xeipuuv/gojsonschema v1.2.0
 	go.uber.org/mock v0.4.0
-	golang.org/x/crypto v0.39.0
+	golang.org/x/crypto v0.45.0
 	golang.org/x/exp v0.0.0-20250606033433-dcc06ee1d476
-	golang.org/x/sync v0.15.0
+	golang.org/x/sync v0.18.0
 	gonum.org/v1/gonum v0.15.0
 	google.golang.org/api v0.215.0
 	gorm.io/datatypes v1.2.5
@@ -86,6 +86,13 @@ require (
 	gorm.io/gorm v1.30.0
 	gorm.io/plugin/dbresolver v1.6.0
 	gorm.io/plugin/soft_delete v1.2.1
+)
+
+require (
+	github.com/oasdiff/yaml v0.0.0-20250309154309-f31be36b4037 // indirect
+	github.com/oasdiff/yaml3 v0.0.0-20250309153720-d2182401db90 // indirect
+	github.com/ugorji/go/codec v1.3.1 // indirect
+	golang.org/x/telemetry v0.0.0-20251008203120-078029d740a8 // indirect
 )
 
 require (
@@ -169,7 +176,6 @@ require (
 	github.com/hashicorp/go-version v1.7.0 // indirect
 	github.com/hashicorp/golang-lru v1.0.2 // indirect
 	github.com/iancoleman/strcase v0.3.0 // indirect
-	github.com/invopop/yaml v0.1.0 // indirect
 	github.com/jhump/protoreflect v1.15.6 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/jinzhu/now v1.1.5 // indirect
@@ -234,20 +240,20 @@ require (
 	go.uber.org/multierr v1.11.0 // indirect
 	go.uber.org/zap v1.27.0 // indirect
 	golang.org/x/arch v0.15.0 // indirect
-	golang.org/x/mod v0.25.0 // indirect
-	golang.org/x/net v0.41.0 // indirect
-	golang.org/x/oauth2 v0.25.0 // indirect
-	golang.org/x/sys v0.33.0 // indirect
-	golang.org/x/text v0.26.0
+	golang.org/x/mod v0.29.0 // indirect
+	golang.org/x/net v0.47.0 // indirect
+	golang.org/x/oauth2 v0.27.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/text v0.31.0
 	golang.org/x/time v0.8.0 // indirect
-	golang.org/x/tools v0.34.0 // indirect
+	golang.org/x/tools v0.38.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20241209162323-e6fa225c2576 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20241223144023-3abc09e42ca8 // indirect
 	google.golang.org/grpc v1.67.3 // indirect
 	google.golang.org/protobuf v1.36.1 // indirect
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1 // indirect
 	gopkg.in/src-d/go-errors.v1 v1.0.0 // indirect
-	gopkg.in/yaml.v2 v2.4.0 // indirect
+	gopkg.in/yaml.v2 v2.4.0
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gorm.io/driver/sqlite v1.5.5 // indirect
 	gorm.io/hints v1.1.2 // indirect
