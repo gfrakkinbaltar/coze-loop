@@ -36,7 +36,7 @@
     "@coze-arch/bot-env": "workspace:*",
     "@coze-arch/eslint-config": "workspace:*",
     "@coze-arch/ts-config": "workspace:*",
-    "@rspack/core": "0.6.0",
+    "@rspack/core": "1.0.0",
     "@types/node": "^18",
     "debug": "^4.3.4",
     "i18next": ">= 19.0.0",
@@ -45,7 +45,7 @@
     "react-is": ">= 16.8.0",
     "styled-components": ">= 2",
     "typescript": "~5.8.2",
-    "webpack": "~5.91.0"
+    "webpack": "~5.103.0"
   }
 }
 
